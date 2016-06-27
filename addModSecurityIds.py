@@ -5,13 +5,13 @@ import os.path
 # This script is ment to solve the problem by assigning all rules of a file
 # an ID starting with a certain value that is specified by the user.
 #
-# Call this script with "addModSecurityIDs.py <pathToRuleFile> <firstIDToAssing>.
+# Call this script with "python addModSecurityIDs.py <pathToRuleFile> <firstIDToAssign>.
 
 
 uninitialized = "uninitialized"
 
 if len(sys.argv) < 2:
-	print "Call this script with 'python addModSecurityIDs.py <pathToRuleFile> <firstIDToAssing>'."
+	print "Call this script with 'python addModSecurityIDs.py <pathToRuleFile> <firstIDToAssign>'."
 	exit()
 
 
